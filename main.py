@@ -26,7 +26,7 @@ class PWDGenerator(QWidget):
     def initUI(self):
         # Settings for main window
         self.setWindowTitle(f'PWDGen {str(__version__)}')
-        self.setWindowIcon(QIcon('icon.png'))
+        self.setWindowIcon(QIcon('icon.ico'))
         self.setGeometry(100, 100, 420, 600)
         self.setMinimumSize(420, 600)
         self.setMaximumSize(420, 600)
